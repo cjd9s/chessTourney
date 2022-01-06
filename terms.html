@@ -1,14 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MP5L8W6');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IT Sligo Spring Chess Tournament</title>
+    <link rel="icon" href="./images/chess.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP5L8W6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
@@ -20,23 +32,23 @@
             <p>Friday, April 29th - Sunday, May 1st</p>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button> -->
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs active">
+            <li> <!-- class="visible-xs active"-->
               <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>
             <li>
-              <a href="./eventDetails.html">
-                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Event Details</a>
+              <a href="./values.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Values</a>
             </li>
             <li>
               <a href="https://icu.ie/events/1503" target="_blank">
@@ -56,12 +68,41 @@
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
+
+        <div class="visible-xs">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li> <!-- class="visible-xs active"-->
+             <a href="index.html">
+               <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+           </li>
+           <li>
+             <a href="./values.html">
+               <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Values</a>
+           </li>
+           <li>
+             <a href="https://icu.ie/events/1503" target="_blank">
+               <span class="glyphicon glyphicon-pencil"></span><br class="hidden-xs"> Register</a>
+           </li>
+           <li>
+             <a href="./terms.html">
+               <span class="glyphicon glyphicon-list-alt"></span><br class="hidden-xs"> Terms</a>
+           </li>
+           <li>
+             <a href="./hotels.html">
+               <span class="glyphicon glyphicon-bed"></span><br class="hidden-xs"> Hotels</a>
+           </li>
+           <li>
+             <a href="./tournament.html">
+               <span class="glyphicon glyphicon-king"></span><br class="hidden-xs"> Tournament</a>
+           </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="https://icu.ie/events/1503">
+  <div id="register-btn" class="visible-xs">
+    <a class="btn" href="https://icu.ie/events/1503" target="_blank">
     <span class="glyphicon glyphicon-pencil"></span>
     Register
     </a>
@@ -73,19 +114,19 @@
 
         <ul> 
           <br>
-          <li>Grading & Rating <br> The latest ratings published by FIDE will be used for determing tournament seed positions. The tournament organizers reserve the right to move players between sections and to merge or split sections based on numbers. 
-          </li>
+          <li>Grading & Rating <br> The latest ratings published by FIDE will be used for determining tournament seed positions. The Tournament Director reserves the right to merge or split sections based on the number of registrations. 
+          </li><br>
           
-          <li>Sections <br> There will be three sections: Master (&gt;1800), Major (1100 -1900), and Challenger (&lt;1200 and unrated).
+          <li>Sections (by FIDE Rating) <br> There will be three sections: Master (&gt;1800), Major (1100 -1900), and Challenger (&lt;1200 and unrated).
             The Tournament Director reserves the right to refuse entry or to transfer players between sections without giving a reason. 
             There will be live boards for the Master section games that will broadcast those games online.
-            All sections will be FIDE rated. Unrated players who play in all five rounds and receive at least a draw are eligible to receive a FIDE rating.
-          </li>
+            <br><br>All sections will be FIDE rated. Unrated players who play in all five rounds and receive at least a draw are eligible to receive a FIDE rating.
+          </li><br>
 
           <li>Round Opponent
             <br> The pairings for all sections for the first round will be published on the tournament website on the evening of Thursday, April 28th. Late entrants will be paired against each other where possible. The next round matches will be displayed as soon as they are available online and at the tournament administration area.
 
-          </li>
+          </li><br>
 
           <li>Playing Schedule <br> 
             Round 1 Fri April 29th 7:00pm<br>
@@ -93,37 +134,37 @@
             Round 3 Sat April 30th 4:00pm<br>
             Round 4 Sun May 1st 10:00am<br>
             Round 5 Sun May 1st 3:00pm
-          </li>     
+          </li>     <br>
 
           <li>Playing Area<br> 
-            No food and No chewing gum in the playing area.
-          </li>          
+            No food and no chewing gum in the playing area.
+          </li>         <br> 
           <li> Equipment
-            <br> 
+            <br>
             All boards, pieces, clocks, and score sheets will be provided by the tournament.
 
-          </li>          
+          </li>        <br>  
           <li> Registration
             <br> 
-            Registration will be administered via the Irish Chess Union (ICU) website. Click on the Registration link at the top of the webpage to go to event registration on 
-            the ICU website. You must be a member of the ICU to compete in the tournament which you can also do on the ICU website.
+            Registration will be administered via the Irish Chess Union (ICU) website. Click on the Registration link at the top of the webpage or <a href="https://icu.ie/events/1503" target="_blank">here</a> to go to event registration page on 
+            the ICU website. You must be a member of the ICU to compete in the tournament which you can also do on the <a href="https://www.icu.ie/shop" target="_blank">Irish Chess Union website</a>.
 
-          </li>          
+          </li><br>          
           <li>Time Control
             <br> 
-            All moves to be completed in 90 minutes, plus a 30 second increment after each move. All moves must be recorded.
-            Any player arriving more than 30 minutes late will be considered to have lost.
+            All moves to be completed in 90 minutes, plus a 30 second increment after each move. All moves must be notated on provided scoresheets.
+            Any player arriving more than 30 minutes late will forfeit their match.
 
-          </li>
+          </li><br>
 
           <li>Byes
 
             <br> 
             A single Half-point bye is permitted in any one of the first four rounds.
-Pairings will be effected using the FIDE approved program and results will be published on the appropriate websites.
-Players may request a "Travelling Bye". All communication to the Tournament Director prior to and within 2 hours of the first game. After round 1 all "Travelling Bye" requests should be made to the Arbiter before the end of the previous round.
+            Pairings will be effected using the FIDE approved program and results will be published on the appropriate websites.
+            Players may request a "Travelling Bye". All communication to the Tournament Director must be prior to 2 hours before the first game. After round 1 all "Travelling Bye" requests should be made to the Arbiter before the end of the previous round.
 
-          </li>
+          </li><br>
 
           <li>Prize money
 
@@ -133,87 +174,86 @@ Players may request a "Travelling Bye". All communication to the Tournament Dire
             Challenger: 1st €350, 2nd €175, 3rd €100, 4th €75<br> 
             <br> 
             If ties occur, prize money will be shared equally.
-            <br>
+      
 
             The prizes are subject to change at the Tournament Director's discretion.
 
             The prizes will be distributed at the awards ceremony at the conclusion of the tournament on Sunday evening at 7pm.
 
-          </li>
+          </li><br>
 
           <li>Chess Rules
 
             <br> 
-            FIDE Laws of Chess Apply as per FIDE Handbook
-What are rules of breaking ties? Median Buchholz; Buchholz; Direct Encounter;Progressive Score. If players cannot be separated after this, the title shall be shared
-13. In the event of any dispute during the game, the players should stop the clock and look for an Arbiter to rule on the issue. The decision of the Arbiter shall be final.
-At the end of each game, players must set the board up correctly (i.e. White Rook on a1).
-16. Sets and clocks must not be removed from the playing room.
-17. Clocks must be left at the side of the board where placed by the Arbiter.
+            FIDE Laws of Chess Apply as per FIDE Handbook.
+            Tiebreak criteria: Direct Encounter, Median Buchholz; Buchholz;Progressive Score. If players cannot be separated after this, the title shall be shared.
+            In the event of any dispute during the game, the players should stop the clock and look for an Arbiter to rule on the issue. The decision of the Arbiter shall be final.
+            <br><br>At the end of each game, players must set the board up correctly (i.e. White Rook on a1).
+            Sets and clocks must not be removed from the playing room.
+            Clocks must be left at the side of the board where placed by the Arbiter.
 
-          </li>
+          </li><br>
 
           <li>Social Events
 
-            <br> There will be a gathering for players at a local venue on Saturday evening 7pm-?. There will be one free drink for every player as well as a free buffet.
-            There might also be an informal Sunday evening blitz tournmant following the awards ceremony
+            <br> There will be a gathering for players at a local venue on Saturday evening 7pm-12:30am. 
+            There will be one free drink for every player as well as a reduced price menu.
+            There might also be an informal Sunday evening blitz tournament following the awards ceremony at a location TBD.
             
-          </li>
+          </li><br>
 
           <li>Registration Fee
 
-            <br> The cost of early registration is €45
-            Early registration will end on Friday, April 15th at which point late registration fee is €50.
-
-            GMs, IMs, and FMs are offered free entry
+            <br> The cost of early registration is €45.
+            Early registration will end on Friday, April 15th at which point the late registration fee is €50.
             
-          </li>
+          </li><br>
 
           <li>Registration and Payment
 
-            <br> Irish players must be members of the ICU
-            To become a member see http://www.icu.ie/icu/join.php
-            Acceptance of entries is entirely at the discretion of the organising committee
+            <br> Irish players must be members of the ICU.
+            You can become a member via the  <a href="https://www.icu.ie/shop" target="_blank">Irish Chess Union website</a>.
+            Acceptance of entries is entirely at the discretion of the Tournament Director.
             
-          </li>
+          </li><br>
 
           <li>Parking & Directions
 
             <br> You may park in the parking area near the main entrance to IT Sligo.
-          </li>
+          </li><br>
           <li>Amenities
 
-            <br> The Grumpy Mule coffee shop, run by O'Hehirs Bakery, will be open from 9:30am-4:00pm on the Saturday and Sunday of the tournament. They will sell savoury and sweet pastries, sandwiches, light snacks, and hot drinks.
-            <br> There will be a cloak room for player's use. It's primary purpose will be to give player's a safe place for their electronic devices during matches.
+            <br> The Grumpy Mule coffee shop, run by O'Hehirs Bakery, will be open from 9:30am-4:00pm on the Saturday and Sunday of the tournament. 
+            They will sell savoury and sweet pastries, sandwiches, light snacks, and hot drinks.
+            <br>
+            <br> There will be a cloak room whose primary purpose will be to give players a safe place for their electronic devices during matches.
             
-          </li>
+          </li><br>
           <li>Hotels
 
-            <br> There is a link at the of the page to information on local hotels and the associated tournament discounts. 
-          </li>
+            <br> Click the link at the top of the page or <a href="./hotels.html">here</a> for information on local hotels and the associated tournament discounts. 
+          </li><br>
           <li>Covid
 
-            <br> We will be taking precautions to prevent the spread of COVID-19. If you are unwell, please do not attend the event.
-            Everyone will be required to wear a mask 
-            Everyone will need to be vaccinated.
-            There will be a small bottle of hand sanitizer at each table for use by the players
-            All equipment will be wiped clean between rounds
-            Players must be vaccinated and provide their Covid Cert for inspection. Details will be recorded with their competition entry.
-            Only one parent(if participant is under 18), will be allowed in the playing hall until play is about to commence. Once the match has started, we request that parents retire from the playing area. Players who have finished their games shall be considered spectators and should leave the playing hall.
+            <br> We will be taking precautions to prevent the spread of COVID-19 in line with government recommendations at the time of the tournament. 
+            If you are unwell, please do not attend the event.
+            There will be hand sanitizer available for all players.
+            All equipment will be wiped clean between rounds.
+            Players who have finished their games shall be considered spectators and should leave the playing area.
             
-          </li>
+          </li><br>
           <li>Cheating
 
-            <br> Cheating will result in expulsion from the tournament. A refund will not be given.
-            11. Once the game has started, no player shall consult with books, electronic devices or any other player, except the Arbiter until after the game has finished. There will be a cloak room to check electronic devices during matches.
+            <br> Cheating will result in expulsion from the tournament. 
+            Once the game has started, no player shall consult with books, electronic devices or any other player, except the Arbiter until after the game has finished. No player will be allowed to have on their person any electronic device, including a phone, during a match.There will be a cloak room to check electronic devices during matches. Refunds will not be issued to expelled players.
             
-          </li>
+          </li><br>
           <li>Disclaimer
 
-            <br> Players accept as a condition of entry that the Organiser’s and Arbiter’s decision on any aspect of the tournament is final, and that the information provided on the entry form may be recorded and used for congress administration, mailing lists and grading purposes. Photos could be taken for use on the IT Sligo Chess  website or the FIDE website. If you don’t want your photo published, please inform the Organisers.
-            Acts of God or other reasons beyond the Organiser’s control may necessitate the cancellation of the congress. The Organiser will try to refund at least part of the entry fee, but no guarantees are made.
-            Mobile phones and other portable communication devices must be muted during rounds. Players are not permitted to bring mobile phones or other electronic devices into the playing area. If a player is found to have a phone or other electronic devices once the round has started, that player will forfeit that round's match. Where can they put their phones? Coat check?
-            The Organiser’s accepts no responsibility for any damage, theft or accident to the person or property of anyone attending this event.
+            <br> Players accept as a condition of entry that the tournament director's and arbiter's decision on any aspect of the tournament is final, and that the information provided on the entry form may be recorded and used for congress administration, mailing lists, and grading purposes. Photos could be taken for use on the IT Sligo Chess website, social media, or the FIDE website. If you don't want your photo published, please inform the tournament director.
+            Acts of God or other reasons beyond the tournament director's control may necessitate the cancellation of the congress. The tournament director will refund as much of the entry fee as possible, but no guarantees are made.
+            Mobile phones and other portable communication devices must be muted during rounds. Players are not permitted to bring mobile phones or other electronic devices into the playing area. If a player is found to have a phone or other electronic devices once the round has started, that player will forfeit that round's match.
+            The tournament director accepts no responsibility for any damage, theft, or accident to the person or property of anyone attending this event.
             Parents or guardians are responsible for their children during the tournament. The organisers and helpers are not able to act "in loco parentis" and are not able to take responsibility for any child's actions, or for the actions of anyone that may affect your child.
             
           </li>
@@ -221,7 +261,7 @@ At the end of each game, players must set the board up correctly (i.e. White Roo
     </div>
     <div id="home-tiles" class="row">
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <a href="socialEvents.html"><div id="menu-tile"><span>social events</span></div></a>
+        <a href="socialEvents.html"><div id="menu-tile"><span>Saturday Social</span></div></a>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
         <a href="https://goo.gl/maps/uHmMLtcJNAHEAemB9" target="_blank">
@@ -269,6 +309,5 @@ At the end of each game, players must set the board up correctly (i.e. White Roo
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>

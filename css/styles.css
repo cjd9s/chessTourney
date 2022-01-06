@@ -54,7 +54,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: black;
+  color: #005E79;
   text-align: center;
 }
 #nav-list a:hover {
@@ -106,10 +106,12 @@ div iframe {
 /* END FOOTER */
 
 /* HOME PAGE */
+
 .container .jumbotron {
   box-shadow: 0 0 50px #8DC642;
   border: 2px solid #8DC642;
   background-color: white;
+
 }
 
 .jumbotron h2 {
@@ -120,6 +122,8 @@ div iframe {
   color: black;
   text-align: justify;
   margin-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .jumbotron ul {
@@ -131,10 +135,29 @@ div iframe {
   color: black;
   list-style: none;
   font-size: 21px;
+  padding-right: 5%;
+}
+
+.jumbotron li a {
+  font-weight: bold;
+  font-size: 1.3em;
+  z-index: 2;
+  position: relative;
+
+}
+
+.jumbotron li a:hover {
+  text-decoration: none;
+  background-color: #8DC642;
 }
 
 .jumbotron li::first-line {
   font-weight: bold;
+}
+
+.jumbotron li li::first-line {
+  font-weight: normal;
+
 }
 
 #menu-tile, #map-tile {
@@ -188,10 +211,11 @@ div iframe {
     right: 0;
     bottom: 0;
     opacity: 0.3;
-    background-image: url('../images/chess-background (x675).jpg');
+    background-image: url('../images/chess-background (1200).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
+    z-index: 1;
   }
 }
 
@@ -214,14 +238,33 @@ div iframe {
   right: 0;
   bottom: 0;
   opacity: 0.3;
-  background-image: url('../images/chess-background (x675).jpg');
+  background-image: url('../images/chess-background (993).jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
 }
 
-  /* End Home Page */
+.navbar ul {
+  position: relative;
+  top: 30px;
+  right: 220px;   
 }
+
+.navbar-brand h1{
+  position: relative;
+  left: 220px;
+  bottom: 50px;
+}
+
+.navbar-brand p {
+position: relative;
+left: 260px;
+bottom:40px;
+  }
+}
+
+  /* End Home Page */
+
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -244,26 +287,29 @@ div iframe {
     right: 0;
     bottom: 0;
     opacity: 0.3;
-    background-image: url('../images/chess-background (x675).jpg');
+    background-image: url('../images/chess-background (768).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
+
   }
 
   .navbar ul {
     position: relative;
     top: 20px;
-    right: 130px;   
+    right: 80px;  
   }
 
   .navbar-brand h1{
     position: relative;
-    left: 120px;
+    left: 100px;
   }
 
   .navbar-brand p {
-  position: relative;
-  left: 170px;  }
+    position: relative;
+    left: 150px;  
+  }
+
 }
 
 /********** Extra small devices only **********/
@@ -275,13 +321,13 @@ div iframe {
   }
   .navbar-brand h1 { /* Restaurant name */
     position: relative;
-    left: 20px;
+    left: 15%;
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     position: relative;
-    left: 55px;
+    left: 23%;
     font-size: 3.2vw;
     margin-top: 12px;
   }
@@ -345,10 +391,11 @@ div iframe {
     right: 0;
     bottom: 0;
     opacity: 0.3;
-    background-image: url('../images/chess-background (x675).jpg');
+    background-image: url('../images/chess-background (x768).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
+
   }
 
   #menu-tile {
@@ -362,7 +409,9 @@ div iframe {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 5vw;
+    position: relative;
+    left: 15%;
   }
   /* End Header */
   

@@ -1,14 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MP5L8W6');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IT Sligo Spring Chess Tournament</title>
+    <link rel="icon" href="./images/chess.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP5L8W6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
@@ -20,23 +32,23 @@
             <p>Friday, April 29th - Sunday, May 1st</p>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button> -->
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs active">
+            <li> <!-- class="visible-xs active"-->
               <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>
             <li>
-              <a href="./eventDetails.html">
-                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Event Details</a>
+              <a href="./values.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Values</a>
             </li>
             <li>
               <a href="https://icu.ie/events/1503" target="_blank">
@@ -56,12 +68,41 @@
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
+
+        <div class="visible-xs">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li> <!-- class="visible-xs active"-->
+             <a href="index.html">
+               <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+           </li>
+           <li>
+             <a href="./values.html">
+               <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Values</a>
+           </li>
+           <li>
+             <a href="https://icu.ie/events/1503" target="_blank">
+               <span class="glyphicon glyphicon-pencil"></span><br class="hidden-xs"> Register</a>
+           </li>
+           <li>
+             <a href="./terms.html">
+               <span class="glyphicon glyphicon-list-alt"></span><br class="hidden-xs"> Terms</a>
+           </li>
+           <li>
+             <a href="./hotels.html">
+               <span class="glyphicon glyphicon-bed"></span><br class="hidden-xs"> Hotels</a>
+           </li>
+           <li>
+             <a href="./tournament.html">
+               <span class="glyphicon glyphicon-king"></span><br class="hidden-xs"> Tournament</a>
+           </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="https://icu.ie/events/1503">
+  <div id="register-btn" class="visible-xs">
+    <a class="btn" href="https://icu.ie/events/1503" target="_blank">
     <span class="glyphicon glyphicon-pencil"></span>
     Register
     </a>
@@ -69,12 +110,13 @@
 
   <div id="main-content" class="container">
     <div class="jumbotron">
-        <h2>Social Events</h2>
-        <p>This page is under construction</p>
+        <h2>Saturday Social</h2>
+        <p>We hope to hold a Saturday night social event for all players at the Clayton Hotel. We are planning on hosting the event in the ballroom which has a dedicated bar. We hope to have one free drink for every player and a reduced price menu available. There will be a screen displaying any ongoing tournament matches followed by the current tournament table and results. We will have boards, pieces, and clocks available for anyone who wishes to play or analyse. <br>
+        <br>Additional information will be provided when the event is confirmed. </p>
     </div>
     <div id="home-tiles" class="row">
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <a href="socialEvents.html"><div id="menu-tile"><span>social events</span></div></a>
+        <a href="socialEvents.html"><div id="menu-tile"><span>Saturday Social</span></div></a>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
         <a href="https://goo.gl/maps/uHmMLtcJNAHEAemB9" target="_blank">
@@ -122,6 +164,5 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
