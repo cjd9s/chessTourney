@@ -122,8 +122,6 @@ div iframe {
   color: black;
   text-align: justify;
   margin-bottom: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .jumbotron ul {
@@ -210,7 +208,7 @@ div iframe {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3;
+    opacity: 0.35;
     background-image: url('../images/chess-background (1200).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -237,7 +235,7 @@ div iframe {
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.3;
+  opacity: 0.35;
   background-image: url('../images/chess-background (993).jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -286,7 +284,7 @@ bottom:40px;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3;
+    opacity: 0.35;
     background-image: url('../images/chess-background (768).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -374,6 +372,14 @@ bottom:40px;
     padding: 0;
   }
 
+  .jumbotron p {
+    color: black;
+    text-align: justify;
+    margin-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .container {
     position: relative;
     padding-left: 0px;
@@ -390,8 +396,8 @@ bottom:40px;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3;
-    background-image: url('../images/chess-background (x768).jpg');
+    opacity: 0.35;
+    background-image: url('../images/chess-background (480).jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -428,5 +434,36 @@ bottom:40px;
     padding-left: 15px;
     float: left;
     width: 100%;
+  }
+
+
+
+  .container {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  /* End Home Page */
+
+  .jumbotron:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.35;
+    background-image: url('../images/chess-background (480).jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
   }
 }
