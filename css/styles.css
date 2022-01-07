@@ -114,6 +114,11 @@ div iframe {
 
 }
 
+.container h3 {
+  color: black;
+  font-style: italic;
+}
+
 .jumbotron h2 {
   color: black;
 }
@@ -124,6 +129,12 @@ div iframe {
   margin-bottom: 25px;
 }
 
+.jumbotron p a {
+  font-weight: bold;
+  font-size: 1.3em;
+  z-index: 2;
+  position: relative;
+}
 .jumbotron ul {
   color: black;
   margin-top: -20px;
