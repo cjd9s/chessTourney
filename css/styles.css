@@ -186,6 +186,12 @@ div iframe {
   overflow: hidden;
 }
 
+#sponsor-title span {
+  font-size: 2em;
+}
+
+
+
 #menu-tile:hover, #map-tile:hover, #sponsor-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
